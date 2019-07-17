@@ -61,7 +61,7 @@ body {
 	top: 28%;
 	right: 17rem;
 }
-h2{
+h1,h2{
     font-family: 'Lobster', cursive;
 }
 .hs-hero-pill{
@@ -82,4 +82,40 @@ h2{
         left: 0;
         right: 0;
     }
+}
+
+/* CTA's  */
+
+.hs-bg-dark{
+    background: #F5F5F5;
+}
+
+.hs-cta h2.position-absolute {
+	top: 43%;
+	/* bottom: 50%; */
+	left: 0;
+	right: 0;
+	margin: 0;
+	text-align: center;
+	padding: 0;
+}
+
+@media screen and (max-width:767px){
+    #hs-cta .col-6:first-child{
+        padding-right: 5px;
+    }
+    #hs-cta .col-6:nth-child(2){
+        padding-left: 5px;
+    }
+
+}
+
+/* Mix Tape Section */
+
+#hs-mix-tap {
+	background: linear-gradient(109deg, #4568DC 0.29%, #B06AB3 91.66%);
+}
+
+.embed-responsive.embed-responsive-1by1:hover {
+    border: 2px solid #fff;
 }
