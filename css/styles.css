@@ -22,12 +22,15 @@ body {
     color: #000000;
     margin-left: 10px;
 }
-.navbar-light .navbar-toggler{
+
+.navbar-light .navbar-toggler {
     border: none;
 }
+
 .navbar-light .navbar-toggler-icon {
     background-image: url("data:image/svg+xml,<svg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(142, 36, 170, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='15' d='M4 7h22M4 15h22M4 23h22'/></svg>");
 }
+
 .navbar-light .navbar-nav .nav-link::after {
     display: block;
     content: attr(title);
@@ -44,39 +47,45 @@ body {
 
 }
 
-@media screen and (max-width:767px){
-	.bg-gray-50 {
-		background: #fff !important;
-	}
-	.nav-link {
-		text-align: center;
-		font-size: 16px;
-	}	
+@media screen and (max-width:767px) {
+    .bg-gray-50 {
+        background: #fff !important;
+    }
+
+    .nav-link {
+        text-align: center;
+        font-size: 16px;
+    }
 }
 
 /* Nav Bar Modification */
 
 /* Hero Banner Area */
 .hs-banner-info {
-	top: 28%;
-	right: 17rem;
-}
-h1,h2{
-    font-family: 'Lobster', cursive;
-}
-.hs-hero-pill{
-    background-color: #8E24AA !important;
-    font-size: 0.7rem;
-	padding: 7px 30px;;
+    top: 28%;
+    right: 17rem;
 }
 
-@media screen and (max-width:1080px){
+h1,
+h2 {
+    font-family: 'Lobster', cursive;
+}
+
+.hs-hero-pill {
+    background-color: #8E24AA !important;
+    font-size: 0.7rem;
+    padding: 7px 30px;
+    ;
+}
+
+@media screen and (max-width:1080px) {
     .hs-banner-info {
         top: 6rem;
         right: 7rem;
     }
 }
-@media screen and (max-width:767px){
+
+@media screen and (max-width:767px) {
     .hs-banner-info {
         top: 10rem;
         left: 0;
@@ -86,25 +95,26 @@ h1,h2{
 
 /* CTA's  */
 
-.hs-bg-dark{
+.hs-bg-dark {
     background: #F5F5F5;
 }
 
 .hs-cta h2.position-absolute {
-	top: 43%;
-	/* bottom: 50%; */
-	left: 0;
-	right: 0;
-	margin: 0;
-	text-align: center;
-	padding: 0;
+    top: 43%;
+    /* bottom: 50%; */
+    left: 0;
+    right: 0;
+    margin: 0;
+    text-align: center;
+    padding: 0;
 }
 
-@media screen and (max-width:767px){
-    #hs-cta .col-6:first-child{
+@media screen and (max-width:767px) {
+    #hs-cta .col-6:first-child {
         padding-right: 5px;
     }
-    #hs-cta .col-6:nth-child(2){
+
+    #hs-cta .col-6:nth-child(2) {
         padding-left: 5px;
     }
 
@@ -113,7 +123,7 @@ h1,h2{
 /* Mix Tape Section */
 
 #hs-mix-tap {
-	background: linear-gradient(109deg, #4568DC 0.29%, #B06AB3 91.66%);
+    background: linear-gradient(109deg, #4568DC 0.29%, #B06AB3 91.66%);
 }
 
 .embed-responsive.embed-responsive-1by1:hover {
@@ -122,41 +132,109 @@ h1,h2{
 
 /* Our Store Policy */
 
-ul li{
+ul li {
     margin-bottom: 10px;
 }
 
 /* Footer */
-.bg-secondary{
+.bg-secondary {
     background: #F5F5F5 !important;
 }
-.text-hs-purple{
+
+.text-hs-purple {
     color: #8E24AA;
 }
+
 ul.hs-footer-links {
-	text-decoration: none;
-	list-style: none;
-	padding: 0;
-	margin: 0;
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 .hs-footer-links a {
-	color: #000;
-	font-size: 12px;
-	margin: 0;
-	padding: 0;
-	line-height: 11px;
-}
-.hs-footer-links li {
-	margin-bottom: 3px;
+    color: #000;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    line-height: 11px;
 }
 
-.fb-color{color: #3B5998}
-.tw-color{color: #03A9F4}
-.in-color{color: #8E24AA}
-.yt-color{color: #C4302B}
+.hs-footer-links li {
+    margin-bottom: 3px;
+}
+
+.fb-color {
+    color: #3B5998
+}
+
+.tw-color {
+    color: #03A9F4
+}
+
+.in-color {
+    color: #8E24AA
+}
+
+.yt-color {
+    color: #C4302B
+}
 
 .fab {
-	font-size: 15px;
-	margin-right: 10px;
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+
+/* Curve */
+
+.curve {
+    display: none
+}
+
+@media screen and (min-width: 1200px) {
+    .curve {
+        position: absolute;
+        width: 100% !important;
+        top: 24rem;
+        display: block;
+        overflow: hidden;
+        height: 200px;
+    }
+}
+
+@media screen and (min-width: 1350px) {
+    .curve {
+        top: 26rem;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    .curve {
+        top: 32rem;
+    }
+}
+
+@media screen and (min-width: 1669px) {
+    .curve {
+        top: 34rem;
+    }
+}
+
+@media screen and (min-width: 1740px) {
+    .curve {
+        top: 35rem;
+    }
+}
+
+@media screen and (min-width: 1820px) {
+    .curve {
+        top: 37rem;
+    }
+}
+
+@media screen and (min-width: 1890px) {
+    .curve {
+        top: 38rem;
+    }
 }
