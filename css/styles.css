@@ -119,3 +119,44 @@ h1,h2{
 .embed-responsive.embed-responsive-1by1:hover {
     border: 2px solid #fff;
 }
+
+/* Our Store Policy */
+
+ul li{
+    margin-bottom: 10px;
+}
+
+/* Footer */
+.bg-secondary{
+    background: #F5F5F5 !important;
+}
+.text-hs-purple{
+    color: #8E24AA;
+}
+ul.hs-footer-links {
+	text-decoration: none;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.hs-footer-links a {
+	color: #000;
+	font-size: 12px;
+	margin: 0;
+	padding: 0;
+	line-height: 11px;
+}
+.hs-footer-links li {
+	margin-bottom: 3px;
+}
+
+.fb-color{color: #3B5998}
+.tw-color{color: #03A9F4}
+.in-color{color: #8E24AA}
+.yt-color{color: #C4302B}
+
+.fab {
+	font-size: 15px;
+	margin-right: 10px;
+}
