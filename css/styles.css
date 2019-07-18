@@ -146,13 +146,17 @@ h2 {
 /* Mix Tape Section */
 
 #hs-mix-tap {
-    background: linear-gradient(109deg, #4568DC 0.29%, #B06AB3 91.66%);
+    background: linear-gradient(109deg, #4568DC 0.29%, #8c6ac1 91.66%);
 }
 
 .embed-responsive.embed-responsive-1by1:hover {
     border: 2px solid #fff;
 }
 
+.curve.curve-gradient {
+	top: -100px;
+	left: 0;
+}
 /* Our Store Policy */
 
 ul li {
