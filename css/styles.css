@@ -77,10 +77,33 @@ h2 {
     padding: 7px 30px;
     ;
 }
-
+@media screen and (max-width:2100px) {
+    .hs-banner-info {
+        top: 12rem;
+        right:29rem;
+    }
+}
+@media screen and (max-width:1920px) {
+    .hs-banner-info {
+        top: 11rem;
+        right: 18rem;
+    }
+}
+@media screen and (max-width:1440px) {
+    .hs-banner-info {
+        top: 10rem;
+        right: 11rem;
+    }
+}
+@media screen and (max-width:1366px) {
+    .hs-banner-info {
+        top: 9rem;
+        right: 8rem;
+    }
+}
 @media screen and (max-width:1080px) {
     .hs-banner-info {
-        top: 6rem;
+        top: 8rem;
         right: 7rem;
     }
 }
@@ -196,7 +219,7 @@ ul.hs-footer-links {
     .curve {
         position: absolute;
         width: 100% !important;
-        top: 24rem;
+        top: 50rem;
         display: block;
         overflow: hidden;
         height: 200px;
