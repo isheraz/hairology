@@ -148,6 +148,9 @@ h2 {
 #hs-mix-tap {
     background: linear-gradient(109deg, #4568DC 0.29%, #8c6ac1 91.66%);
 }
+.hs-cta:hover {
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6)
+}
 
 .embed-responsive.embed-responsive-1by1:hover {
     border: 2px solid #fff;
