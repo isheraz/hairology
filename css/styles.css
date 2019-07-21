@@ -280,13 +280,55 @@ ul.hs-footer-links {
 
 
 /* Hair Packages Page */
-
+.hs-hair-title{
+    text-align: center;
+    background: linear-gradient(109deg, rgb(97, 13, 117) 20%, #b10569 80%);
+}
+.hs-hair-title img{
+    float: left;
+    max-height:140px;
+}
+.hs-hair-title p{
+    padding-top: 20px;
+}
 .hs-offer-title span{
-    margin: 0 auto;
+    border-right-style: solid;
     display: inline-block;
 }
 .hs-offer-title h5{
     text-align: center;
+    float: right;
     text-transform: uppercase;
 }
-
+.hs-seperator{
+    padding: 20px;
+}
+.hs-hair-package{ 
+    padding: 50px;
+}
+.hs-package-box{
+    padding: 5px;
+    border: 5px solid purple;
+    display: inline;
+}
+.hs-package-box ul li{
+    display: block;
+}
+.hs-weave-title{
+    text-align: center;
+    background: linear-gradient(109deg, rgb(133, 177, 235), #4644d8);
+}
+.hs-weave-title p{
+    padding-top: 20px;
+}
+.hs-weave-package-title{
+    color: rgb(124, 162, 231);
+}
+.hs-weave-package-box{
+    padding: 5px;
+    border: 5px solid blue;
+    display: inline;
+}
+.hs-weave-package-box ul li{
+    display: block;
+}
