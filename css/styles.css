@@ -289,7 +289,13 @@ ul.hs-footer-links {
     max-height:140px;
 }
 .hs-hair-title p{
-    padding-top: 20px;
+    padding-top: 15px;
+}
+.hs-hair-title h1,.hs-hair-title h4{
+    font-family: 'Century Gothic';
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
 }
 .hs-offer-title span{
     border-right-style: solid;
@@ -297,6 +303,7 @@ ul.hs-footer-links {
 }
 .hs-offer-title h5{
     text-align: center;
+    font-weight: bold;
     float: right;
     text-transform: uppercase;
 }
@@ -306,13 +313,25 @@ ul.hs-footer-links {
 .hs-hair-package{ 
     padding: 50px;
 }
+.hs-hair-package h4{
+    font-family: 'Century Gothic';
+    color: black;
+}
 .hs-package-box{
     padding: 5px;
-    border: 5px solid purple;
-    display: inline;
+    display: block;
+    min-height: 250px;
+    max-height: 250px;
+    border: 4px solid transparent;
+    border-image: linear-gradient(109deg, rgb(97, 13, 117) 20%, #88289b 80%);
+    border-image-slice: 1;
+    margin-bottom: 30px;
 }
 .hs-package-box ul li{
     display: block;
+}
+.hs-package-title-long{
+    
 }
 .hs-weave-title{
     text-align: center;
