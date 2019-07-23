@@ -75,6 +75,9 @@ h2 {
     font-family: 'Lobster', cursive;
 }
 
+.dropdown-item{
+    font-size: 14px;
+}
 .hs-hero-pill {
     background-color: #8E24AA !important;
     font-size: 0.7rem;
@@ -282,11 +285,9 @@ ul.hs-footer-links {
 /* Hair Packages Page */
 .hs-hair-title{
     text-align: center;
-    background: linear-gradient(109deg, rgb(97, 13, 117) 20%, #b10569 80%);
-}
-.hs-hair-title img{
-    float: left;
-    max-height:140px;
+    background: url(../images/left.png),linear-gradient(109deg, rgb(97, 13, 117) 20%, #b10569 80%);
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 .hs-hair-title p{
     padding-top: 15px;
@@ -296,6 +297,9 @@ ul.hs-footer-links {
     text-transform: uppercase;
     font-weight: bold;
     color: #fff;
+}
+.hs-offer-title img{
+    float: right;
 }
 .hs-offer-title span{
     border-right-style: solid;
@@ -308,46 +312,143 @@ ul.hs-footer-links {
     text-transform: uppercase;
 }
 .hs-seperator{
-    padding: 20px;
+    padding: 25px;
 }
 .hs-hair-package{ 
     padding: 50px;
 }
-.hs-hair-package h4{
-    font-family: 'Century Gothic';
-    color: black;
+.hs-package-box .col-7>h3{
+    font-weight: bold;
+    text-align: center;
+}
+.hs-package-box .col-7{
+    margin-bottom: 0px;
 }
 .hs-package-box{
     padding: 5px;
     display: block;
-    min-height: 250px;
-    max-height: 250px;
+    text-align: center;
+    min-height: 170px;
+    max-height: 170px;
     border: 4px solid transparent;
     border-image: linear-gradient(109deg, rgb(97, 13, 117) 20%, #88289b 80%);
     border-image-slice: 1;
     margin-bottom: 30px;
 }
+.hs-package-box .col-7>h6{
+    font-size: 0.8rem;
+}
 .hs-package-box ul li{
     display: block;
+    margin-bottom:2px; 
+    font-size: 0.6rem;
 }
 .hs-package-title-long{
-    
+    font-weight: 700;
+    padding: 5px;
+    font-size: 1rem;
+    text-align: center;
+}
+.hs-package-title-long, .hs-package-title-long+p {
+    margin-bottom: 0;
+}
+#hs-package-title-purple{
+    font-weight: 700;
+    font-size: 0.6rem;
+    text-align: center;
+    color:purple;
 }
 .hs-weave-title{
     text-align: center;
-    background: linear-gradient(109deg, rgb(133, 177, 235), #4644d8);
+    background: linear-gradient(109deg, rgb(21, 168, 187)45%, #5278e0);
+}
+.hs-weave-title h2,.hs-weave-title h5{
+    font-family: 'Century Gothic';
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
 }
 .hs-weave-title p{
     padding-top: 20px;
 }
 .hs-weave-package-title{
     color: rgb(124, 162, 231);
+    font-family: 'Century Gothic';
+    font-weight: bold;
 }
 .hs-weave-package-box{
     padding: 5px;
-    border: 5px solid blue;
+    display: block;
+    text-align: center;
+    min-height: 170px;
+    max-height: 170px;
+    border: 4px solid transparent;
+    border-image: linear-gradient(109deg, rgb(60, 201, 219)45%, #5278e0);
+    border-image-slice: 1;
+    margin-bottom: 30px;
+}
+.hs-weave-package-box h2{
+    font-size: 1.3rem;
+}
+.hs-weave-package-box p{
+    color: black;
     display: inline;
 }
-.hs-weave-package-box ul li{
-    display: block;
+.hs-weave-package-box h6{
+    font-size: 0.7rem;
+}
+.hs-weave-package-img{
+    float: left;
+    min-height: 170px;
+    max-height: 170px;
+    background: url(../images/needle.png),linear-gradient(109deg, rgb(21, 168, 187)45%, #5278e0);
+    background-position: right center;
+    background-repeat:no-repeat; 
+}
+.hs-weave-package-img h3{
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+    font-family: 'Century Gothic';
+}
+.hs-extra-packages{
+    padding-left:5px;
+    font-weight: 700;
+}
+.hs-extra-packages .col-1{
+    color: #03A9F4;
+}
+.hs-extra-packages .col-11{
+    color: rgb(66, 67, 68);
+}
+.hs-as-title{
+    background: url(../images/right.png),linear-gradient(109deg, rgb(97, 13, 117) 20%, #b10569 80%);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: contain;
+
+}
+.hs-as-title p{
+    padding-top: 15px;
+}
+.hs-as-title h1,.hs-as-title h4{
+    font-family: 'Century Gothic';
+    padding-left:30px; 
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+}
+.hs-as-offers,.hs-as-offers h2{
+    padding: 10px;
+    color: #88289b;
+    font-weight: 700;
+    font-family:'Century Gothic';
+}
+.hs-as-offers h6{
+    padding: 0px;
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+.hs-as-offers .col-11{
+    color: rgb(66, 67, 68);
 }
