@@ -309,35 +309,31 @@ ul.hs-footer-links {
     color: #fff;
 }
 .hs-offer-title img{
-    vertical-align: initial;
+    display: inline-block;
+	margin: -40px 0 0 0;
 }
 
 .hs-offer-title h5{
     text-align: center;
-    font-weight: bold;
-    float: right;
+	font-weight: bold;
+	display: inline-block;
     text-transform: uppercase;
+	color: #484747;
 }
 .hs-seperator{
     border: 2px solid #8324aa;
 	height: 50px;
-	margin-left: 10px;
+	margin:0 20px;
 	display: inline-block;
 }
 .hs-hair-package{ 
     padding: 50px;
 }
-.hs-package-box .col-7>h3{
-    font-weight: bold;
-    text-align: center;
-}
-.hs-package-box .col-7{
-    margin-bottom: 0px;
-}
 
 
+/* Package Box */
 .hs-package-box{
-    padding: 5px;
+    padding: 20px 20px 0;
     display: block;
     text-align: center;
     min-height: 170px;
@@ -347,28 +343,56 @@ ul.hs-footer-links {
     border-image-slice: 1;
     margin-bottom: 30px;
 }
-.hs-package-box .col-7>h6{
+
+.hs-package-box .col-9{
+    margin-bottom: 0px;
+}
+.hs-package-box .col-9>h3{
+    font-weight: bold;
+    text-align: center;
+    color: #484747;
+    font-size: 1.8rem;
+}
+.hs-package-box .col-9>h6{
     font-size: 0.8rem;
+	font-weight: 600;
+	color: #484747;
+}
+.hs-package-box ul{
+    margin:0;
+    padding:0;
 }
 .hs-package-box ul li{
     display: block;
     margin-bottom:2px; 
-    font-size: 0.6rem;
+    font-size: 0.7rem;
 }
 .hs-package-title-long{
     font-weight: 700;
-    padding: 5px;
+    /* padding: 5px; */
     font-size: 1rem;
     text-align: center;
+	color: #484747;
+}
+.hs-package-title-long+p{
+    font-size:0.7rem;
 }
 .hs-package-title-long, .hs-package-title-long+p {
     margin-bottom: 0;
+	padding: 0;
+	font-weight: 600;
+	color: #484747;
+}
+h6.hs-sub-title {
+	font-size: 0.67rem !important;
 }
 #hs-package-title-purple{
     font-weight: 700;
     font-size: 0.6rem;
     text-align: center;
     color:purple;
+	padding-top: 5px;
+	margin-bottom: 0;
 }
 .hs-weave-title{
     text-align: center;
@@ -458,6 +482,8 @@ section#hs-packages {
 .hs-as-offers,.hs-as-offers h2{
     padding: 10px;
     color: #88289b;
+    border-top: 2px solid black;
+
     font-weight: 700;
     font-family:'Century Gothic';
 }
