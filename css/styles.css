@@ -439,12 +439,9 @@ section#hs-packages {
     font-size: 0.7rem;
 }
 .hs-weave-package-img{
-    float: left;
     min-height: 170px;
     max-height: 170px;
-    background: url(../images/needle.png),linear-gradient(109deg, rgb(21, 168, 187)45%, #5278e0);
-    background-position: right center;
-    background-repeat:no-repeat; 
+    background: url('../images/needle.png') no-repeat right bottom,linear-gradient(109deg, rgb(21, 168, 187)45%, #5278e0);
 }
 .hs-weave-package-img h3{
     color: #fff;
@@ -467,8 +464,15 @@ section#hs-packages {
     background-repeat: no-repeat;
     background-position: right center;
     background-size: contain;
-
 }
+
+
+@media screen and (max-width: 767px){
+    .hs-hair-title {
+        background: linear-gradient(109deg, rgb(97, 13, 117) 20%, #b10569 80%);
+    }
+}
+
 .hs-as-title p{
     padding-top: 15px;
 }
