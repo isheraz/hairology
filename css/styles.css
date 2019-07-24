@@ -411,7 +411,7 @@ h6.hs-sub-title {
     padding-top: 20px;
 }
 .hs-weave-package-title{
-    color: rgb(124, 162, 231);
+    color: rgb(62, 186, 243);
     font-family: 'Century Gothic';
     font-weight: bold;
 }
@@ -435,7 +435,7 @@ section#hs-packages {
     font-size: 1.3rem;
 }
 .hs-weave-package-box p{
-    color: black;
+	color: #484747;
     display: inline;
 }
 .hs-weave-package-box h6{
@@ -456,16 +456,31 @@ section#hs-packages {
 
 /*Extra Packages*/
 .hs-extra-packages{
-    padding-left:5px;
+    color: #484747;
     font-weight: 700;
+    font-size: 1rem;
 }
-.hs-extra-packages .col-1{
-    color: #03A9F4;
+#hs-extra-packages-block{
+    border-bottom: 4px solid transparent;
+    border-image: linear-gradient(109deg, rgb(60, 201, 219)45%, #5278e0);
+    border-image-slice: 1;
 }
-.hs-extra-packages .col-11{
-    color: rgb(66, 67, 68);
+.hs-extra-packages ul{
+    padding: 20px;
+    margin-bottom: 0px;
+
 }
 
+.hs-extra-packages li{
+    display: block;
+    border-bottom: 2px solid transparent;
+    border-image: linear-gradient(109deg, rgb(60, 201, 219)45%, #5278e0);
+    border-image-slice: 1;
+}
+.hs-extra-packages span{
+    color: rgb(62, 186, 243);
+    padding-right: 8px;
+}
 
 /*Additional services*/
 .hs-as-title{
