@@ -369,7 +369,6 @@ ul.hs-footer-links {
 }
 .hs-package-title-long{
     font-weight: 700;
-    /* padding: 5px; */
     font-size: 1rem;
     text-align: center;
 	color: #484747;
@@ -394,6 +393,9 @@ h6.hs-sub-title {
 	padding-top: 5px;
 	margin-bottom: 0;
 }
+
+
+/*Weave box*/
 .hs-weave-title{
     text-align: center;
     background: linear-gradient(109deg, rgb(21, 168, 187)45%, #5278e0);
@@ -462,6 +464,9 @@ section#hs-packages {
 .hs-extra-packages .col-11{
     color: rgb(66, 67, 68);
 }
+
+
+/*Additional services*/
 .hs-as-title{
     background: url(../images/right.png),linear-gradient(109deg, rgb(97, 13, 117) 20%, #b10569 80%);
     background-repeat: no-repeat;
@@ -479,11 +484,21 @@ section#hs-packages {
     font-weight: bold;
     color: #fff;
 }
+.hs-as-offers{
+    border: none !important;
+}
+.hs-as-offers h3{
+    font-size: 1.9rem;
+    font-weight: 700;
+    border: none !important;
+}
 .hs-as-offers,.hs-as-offers h2{
-    padding: 10px;
     color: #88289b;
-    border-top: 2px solid black;
-
+    border-top: 3px solid transparent;
+    margin-bottom: 3px;
+    margin-top: 20px;
+    border-image: linear-gradient(109deg, rgb(159, 89, 177) 20%, #c98bbe 80%);
+    border-image-slice: 1;
     font-weight: 700;
     font-family:'Century Gothic';
 }
