@@ -331,6 +331,7 @@ ul.hs-footer-links {
 }
 
 
+
 /* Package Box */
 .hs-package-box{
     padding: 20px 20px 0;
@@ -441,12 +442,9 @@ section#hs-packages {
     font-size: 0.7rem;
 }
 .hs-weave-package-img{
-    float: left;
     min-height: 170px;
     max-height: 170px;
-    background: url(../images/needle.png),linear-gradient(109deg, rgb(21, 168, 187)45%, #5278e0);
-    background-position: right center;
-    background-repeat:no-repeat; 
+    background: url('../images/needle.png') no-repeat right bottom,linear-gradient(109deg, rgb(21, 168, 187)45%, #5278e0);
 }
 .hs-weave-package-img h3{
     color: #fff;
@@ -454,6 +452,9 @@ section#hs-packages {
     padding: 10px;
     font-family: 'Century Gothic';
 }
+
+
+/*Extra Packages*/
 .hs-extra-packages{
     padding-left:5px;
     font-weight: 700;
@@ -472,8 +473,8 @@ section#hs-packages {
     background-repeat: no-repeat;
     background-position: right center;
     background-size: contain;
-
 }
+
 .hs-as-title p{
     padding-top: 15px;
 }
@@ -492,22 +493,44 @@ section#hs-packages {
     font-weight: 700;
     border: none !important;
 }
-.hs-as-offers,.hs-as-offers h2{
-    color: #88289b;
-    border-top: 3px solid transparent;
-    margin-bottom: 3px;
+.hs-as-offers-block{
+    border-bottom: 3px solid transparent;
+    padding-bottom: 20px;
     margin-top: 20px;
     border-image: linear-gradient(109deg, rgb(159, 89, 177) 20%, #c98bbe 80%);
     border-image-slice: 1;
+}
+.hs-as-offers,.hs-as-offers h2{
+    color: #88289b;
+    margin-top:10px; 
+    margin-bottom: 3px;
     font-weight: 700;
     font-family:'Century Gothic';
+}.hs-as-img{
+    padding-left: 40px;
 }
 .hs-as-offers h6{
     padding: 0px;
     font-size: 0.8rem;
     font-weight: 700;
 }
-.hs-as-offers .col-11{
+.hs-as-offers .col-11,.col-10{
     color: rgb(66, 67, 68);
 
+}
+#hs-as-offers-text{
+    color: #88289b;
+}
+/*Media quries Hair Packages page*/
+@media screen and (max-width: 767px){
+    .hs-hair-title {
+        background: linear-gradient(109deg, rgb(97, 13, 117) 20%, #b10569 80%);
+    }
+    .hs-as-title{
+        padding-left: 0px;
+        background: linear-gradient(109deg, rgb(97, 13, 117) 20%, #b10569 80%);
+    }
+    .hs-as-img{
+        display: none;
+    }
 }
