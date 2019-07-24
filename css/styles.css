@@ -470,7 +470,13 @@ section#hs-packages {
     margin-bottom: 0px;
 
 }
+#hs-wwa p {
+	text-align: justify;
+}
 
+#hs-osp li {
+	text-align: justify;
+}
 .hs-extra-packages li{
     display: block;
     border-bottom: 2px solid transparent;
