@@ -1,4 +1,8 @@
 @import '../fonts/stylesheet.css';
+html {
+    -webkit-text-size-adjust: none;
+    touch-action: manipulation;
+}
 
 html {
     -webkit-text-size-adjust: none;
@@ -23,7 +27,6 @@ body {
 a:hover,
 a:focus,
 a:active {
-
     color: #61007A;
 
     text-decoration: none;
@@ -37,7 +40,6 @@ a:active {
 }
 
 
-
 /* Nav Bar Modification */
 
 
@@ -47,7 +49,6 @@ a:active {
     background: rgba(229, 229, 229, 0.9);
 
 }
-
 
 
 .bg-gray-50-2 {
@@ -261,7 +262,6 @@ h2 {
 }
 
 
-
 /* CTA's  */
 
 
@@ -327,7 +327,6 @@ h2 {
 }
 
 .hs-cta:hover {
-
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6)
 }
 
@@ -370,7 +369,6 @@ ul li {
     margin-bottom: 10px;
 
 }
-
 
 
 /* Footer */
@@ -601,14 +599,12 @@ ul.hs-footer-links {
 }
 
 .hs-hair-title p {
-
     padding-top: 15px;
 
 }
 
 .hs-hair-title h1,
 .hs-hair-title h4 {
-
     font-family: 'Century Gothic';
 
     text-transform: uppercase;
@@ -686,7 +682,6 @@ ul.hs-footer-links {
     border-image: linear-gradient(109deg, rgb(97, 13, 117) 20%, #88289b 80%);
     -moz-border-image: -moz-linear-gradient(109deg, rgb(97, 13, 117) 20%, #88289b 80%);
     -webkit-border-image: -webkit-linear-gradient(109deg, rgb(97, 13, 117) 20%, #88289b 80%);
-
     border-image-slice: 1;
 
     margin-bottom: 30px;
@@ -702,7 +697,6 @@ ul.hs-footer-links {
 }
 
 .hs-package-box .col-9>h3 {
-
     font-weight: bold;
 
     text-align: center;
@@ -742,7 +736,6 @@ ul.hs-footer-links {
 }
 
 .hs-package-title-long {
-
     font-weight: 700;
 
     font-size: 1rem;
@@ -801,7 +794,6 @@ h6.hs-sub-title {
 /*Weave box*/
 
 .hs-weave-title {
-
     text-align: center;
 
     background: linear-gradient(109deg, rgb(21, 168, 187)45%, #5278e0);
@@ -810,7 +802,6 @@ h6.hs-sub-title {
 
 .hs-weave-title h2,
 .hs-weave-title h5 {
-
     font-family: 'Century Gothic';
 
     text-transform: uppercase;
@@ -822,13 +813,11 @@ h6.hs-sub-title {
 }
 
 .hs-weave-title p {
-
     padding-top: 20px;
 
 }
 
 .hs-weave-package-title {
-
     color: rgb(62, 186, 243);
 
     font-family: 'Century Gothic';
@@ -838,7 +827,6 @@ h6.hs-sub-title {
 }
 
 .hs-weave-package-box {
-
     padding: 5px;
 
     display: block;
@@ -854,7 +842,6 @@ h6.hs-sub-title {
     border-image: linear-gradient(109deg, rgb(60, 201, 219)45%, #5278e0);
     -moz-border-image: -moz-linear-gradient(109deg, rgb(60, 201, 219)45%, #5278e0);
     -webkit-border-image: -webkit-linear-gradient(109deg, rgb(60, 201, 219)45%, #5278e0);
-
     border-image-slice: 1;
 
     margin-bottom: 30px;
@@ -886,13 +873,11 @@ section#hs-packages {
 }
 
 .hs-weave-package-box h6 {
-
     font-size: 0.7rem;
 
 }
 
 .hs-weave-package-img {
-
     min-height: 170px;
 
     max-height: 170px;
@@ -920,7 +905,6 @@ section#hs-packages {
 /*Extra Packages*/
 
 .hs-extra-packages {
-
     color: #484747;
 
     font-weight: 700;
@@ -930,7 +914,6 @@ section#hs-packages {
 }
 
 #hs-extra-packages-block {
-
     border-bottom: 4px solid transparent;
 
     border-image: linear-gradient(109deg, rgb(60, 201, 219)45%, #5278e0);
@@ -940,7 +923,6 @@ section#hs-packages {
 }
 
 .hs-extra-packages ul {
-
     padding: 20px;
 
     margin-bottom: 0px;
@@ -972,13 +954,11 @@ section#hs-packages {
     border-image: linear-gradient(109deg, rgb(60, 201, 219)45%, #5278e0);
     -moz-border-image: -moz-linear-gradient(109deg, rgb(60, 201, 219)45%, #5278e0);
     -webkit-border-image: -webkit-linear-gradient(109deg, rgb(60, 201, 219)45%, #5278e0);
-
     border-image-slice: 1;
 
 }
 
 .hs-extra-packages span {
-
     color: rgb(62, 186, 243);
 
     padding-right: 8px;
@@ -1025,13 +1005,11 @@ section#hs-packages {
 }
 
 .hs-as-offers {
-
     border: none !important;
 
 }
 
 .hs-as-offers h3 {
-
     font-size: 1.9rem;
 
     font-weight: 700;
@@ -1041,7 +1019,6 @@ section#hs-packages {
 }
 
 .hs-as-offers-block {
-
     border-bottom: 3px solid transparent;
 
     padding-bottom: 20px;
@@ -1051,7 +1028,6 @@ section#hs-packages {
     border-image: linear-gradient(109deg, rgb(159, 89, 177) 20%, #c98bbe 80%);
     -moz-border-image: -moz-linear-gradient(109deg, rgb(159, 89, 177) 20%, #c98bbe 80%);
     -webkit-border-image: -webkit-linear-gradient(109deg, rgb(159, 89, 177) 20%, #c98bbe 80%);
-
     border-image-slice: 1;
 
 }
@@ -1078,7 +1054,6 @@ section#hs-packages {
 }
 
 .hs-as-offers h6 {
-
     padding: 0px;
 
     font-size: 0.8rem;
@@ -1125,7 +1100,6 @@ section#hs-packages {
         display: none;
 
     }
-
 }
 
 @media screen and (max-width: 1024px) {
