@@ -626,7 +626,7 @@ section#hs-packages {
 }
 
 
-/*---gallery-*/
+/*gallery*/
 
 #hs-mix-gallery {
     padding-top: 50px;
@@ -699,6 +699,7 @@ section#hs-packages {
     display: none;
     padding: 6px 12px;
     border-top: none;
+    color: white;
 }
 
 @media (max-width:629px) {
